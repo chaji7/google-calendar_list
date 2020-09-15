@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------
+# .gitinogreに関するTips
+# 
+# あとからまとめて.gitignoreする方法
+# https://qiita.com/yuuAn/items/b1d1df2e810fd6b92574
+#
+# .gitignore ファイルをブランチごとに別の内容にする
+# https://qiita.com/matsuoshi/items/f40d60a5c0a1a169a73b
+# ---------------------------------------------------------------
+
+# ドットはじまり
+\!*
+.*
+!.htaccess
+!.htpasswd
+!.gitkeep
+!.gitignore
+!.gitmodules
+!.editorconfig
+
+# コンパイルファイル
+#*.css
+*.css.map
+bundle.js
+*.scssc
+*.map
+/www/generator/log
+.sass-cache
+
+#gulp
+.babelrc
+.image-cache
+gulpfile.babel.js
+package.json
+package-lock.json
+fractal.js
+fractal_src/*
+component_lib/*
+
+
+# デザインフォルダ
+_design
+
+# NPM
+node_modules/
+dist_img/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Other
+ssl
+app.yaml
+~
+.DS_Store
+config.codekit*
+*.code-workspace
+*.log
+コピー
+.AppleDouble
+.smbdelete
+
+!.gitkeep

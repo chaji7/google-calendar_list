@@ -1,0 +1,32 @@
+{
+  "teama": [
+    {
+      "name": "A1",
+      "path": "example@google.com"
+    },
+    {
+      "name": "A2",
+      "path": "example@google.com"
+    }
+  ],
+  "teamb": [
+    {
+      "name": "B1",
+      "path": "example@google.com"
+    },
+    {
+      "name": "B2",
+      "path": "example@google.com"
+    }
+  ],
+  "teamc": [
+    {
+      "name": "C1",
+      "path": "example@google.com"
+    },
+    {
+      "name": "C2",
+      "path": "example@google.com"
+    }
+  ]
+}

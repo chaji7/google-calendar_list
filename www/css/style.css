@@ -1,0 +1,55 @@
+#authorize_button,#signout_button{
+  display: none;
+}
+.week{
+  background-color:#eee6e678;
+}
+.sat{
+  background-color:rgb(196, 235, 245);
+}
+.sun{
+  background-color:rgb(240, 221, 233);
+}
+.event-link{
+  font-size:14px;
+}
+.table tbody+tbody {
+  border-top: 2px solid #080808;
+}
+.table,.table > thead > tr > th,.table > tbody > tr > th,.table > tbody > tr > td{
+  border-collapse: collapse;
+  border:1px solid #333;
+}
+.table{
+  table-layout:fixed;
+}
+.weeklinks{
+  margin-bottom:10px;
+}
+.todayLink,.nextLink{
+  margin-left: 30px;
+}
+.selectDate{
+  margin-left: 50px;
+}
+div.event-link > a{
+  display: block; 
+  margin-bottom:-15px;
+}
+
+/*
+ヘッダー行列を固定
+*/
+.table thead th {
+  /* 縦スクロール時に固定する */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* tbody内のセルより手前に表示する */
+
+}
+
+.headDate {
+  font-weight: bold;
+  margin-bottom:10px;
+}
